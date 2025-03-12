@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal */
+  .curriculum-container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Encabezado */
+  .curriculum-header {
+    text-align: center;
+    background: #4CAF50; /* Verde */
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Menú de navegación */
+  .curriculum-nav {
+    text-align: center;
+    background: #333;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .curriculum-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .curriculum-nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .curriculum-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .curriculum-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Secciones */
+  .curriculum-content section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Pie de página */
+  .curriculum-footer {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
